@@ -73,5 +73,5 @@ public abstract class AbstractPageObject {
 	
 	protected String getTextByAttributeByCSS(String css, String value) {
 		return findElementByCSS(css).getAttribute(value);
-	}
+	}	
 }
